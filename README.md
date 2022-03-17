@@ -35,10 +35,3 @@ Always be kind when you find a mistake in a push after pulling. It's very annoyi
 Reducing the size could be removing anything that was added by mistake. Shifting through all the files and prefabs very carefully. You can also talk to the modeling team about the prefab sizes. The modeling team could always reduce resolution and other scalings down to make the file sizes smaller. 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Sources:
-
-https://gamedev.stackexchange.com/questions/85807/how-to-read-a-data-from-text-file-in-unity 
-  https://docs.unity3d.com/ScriptReference/PlayerPrefs.html
-https://answers.unity.com/questions/972817/convert-string-to-int-2.html 
-https://answers.unity.com/questions/812667/how-can-i-emit-a-particle-at-a-collisions-location.html
