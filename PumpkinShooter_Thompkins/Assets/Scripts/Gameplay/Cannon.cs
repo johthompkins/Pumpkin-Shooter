@@ -14,7 +14,7 @@ public class Cannon : MonoBehaviour
     [SerializeField] private GameObject _cannonballPrefab1 = null;
     [SerializeField] private GameObject _cannonballPrefab2 = null;
     [SerializeField] private GameObject _cannonballPrefab3 = null;
-    [SerializeField] private float _cannonballFireVelocity = 50.0f;
+    [SerializeField] private float _cannonballFireVelocity = 50.0f * Time.unscaledDeltaTime;
     [SerializeField] private float _rateOfFire = 0.33f;
 
     private float _timeOfLastFire = 0.0f;
@@ -36,12 +36,12 @@ public class Cannon : MonoBehaviour
 
         if( Input.GetKey( KeyCode.LeftArrow ) )
         {
-            _cannonTransform.Rotate( 0.0f, -(Time.deltaTime * _rotationRate), 0.0f, Space.World );
+            _cannonTransform.Rotate( 0.0f, -(Time.unscaledDeltaTime * _rotationRate), 0.0f, Space.World );
         }
 
         if( Input.GetKey( KeyCode.RightArrow ) )
         {
-            _cannonTransform.Rotate( 0.0f, Time.deltaTime * _rotationRate, 0.0f, Space.World );
+            _cannonTransform.Rotate( 0.0f, Time.unscaledDeltaTime * _rotationRate, 0.0f, Space.World );
         }
     }
 
