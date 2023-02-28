@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c80d79f2123e44cf96138f13f79ebaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitEffect: {fileID: 7808481040960581039, guid: 759ba7df6c800214ca930ebf50af9936,
+  hitEffect: {fileID: 3379651092531469668, guid: e8092f445cfe7554282413cd268522de,
     type: 3}
 --- !u!114 &2397328841875320406
 MonoBehaviour:

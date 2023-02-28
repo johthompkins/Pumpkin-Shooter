@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 426884}
   - component: {fileID: 2295842770789856697}
   - component: {fileID: 3880910506220514514}
+  - component: {fileID: 1842358540438686657}
   m_Layer: 0
   m_Name: Cannon_01
   m_TagString: Untagged
@@ -395,6 +396,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35b79d590d37e7845bca8100a669d4ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1842358540438686657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f856819071fe5d746ba38bf13fc90959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatIsGrappleable:
+    serializedVersion: 2
+    m_Bits: 0
+  gunTip: {fileID: 2239193771361150649}
+  camera: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &2268454128897900505
 GameObject:
   m_ObjectHideFlags: 0

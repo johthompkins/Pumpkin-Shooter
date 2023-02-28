@@ -14,7 +14,7 @@ public class Cannon : MonoBehaviour
     [SerializeField] private GameObject _cannonballPrefab1 = null;
     [SerializeField] private GameObject _cannonballPrefab2 = null;
     [SerializeField] private GameObject _cannonballPrefab3 = null;
-    [SerializeField] private float _cannonballFireVelocity = 50.0f * Time.unscaledDeltaTime;
+    [SerializeField] private float _cannonballFireVelocity = 50.0f;
     [SerializeField] private float _rateOfFire = 0.33f;
 
     private float _timeOfLastFire = 0.0f;
